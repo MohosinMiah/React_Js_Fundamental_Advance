@@ -26,17 +26,17 @@ import { Component } from 'react';
 class Block extends Component {
 
 static defaultProps = {
+
     textColor: 'green'
 
 }
 
 
 render () {
-    return (
-        
-        <div style={{ backgroundColor:"black" }}>
-         <h1 style={{ color:this.props.textColor }}>Block Class</h1>
 
+    return (
+        <div style={{ backgroundColor:"black" }}>
+            <h1 style={{ color:this.props.textColor }}>Block Class</h1>
         </div>
     )
 }

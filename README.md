@@ -6,6 +6,14 @@
 # Default Props - 02
 Default Props is use to specify default props value.
 
+# Props Types - 03
+
+Source : https://www.npmjs.com/package/prop-types
+
+Props Types can be use for validate and check props.
+
+
+
 
 
 
