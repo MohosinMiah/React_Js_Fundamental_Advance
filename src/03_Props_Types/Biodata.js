@@ -18,7 +18,9 @@ function Biodata (props) {
 
 
 Biodata.propTypes = {
-  name: PropTypes.string
+  name: PropTypes.string,
+  age: PropTypes.oneOf([22, 34]).isRequired,
+
 }
 
 

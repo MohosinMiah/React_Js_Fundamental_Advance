@@ -7,10 +7,12 @@
 Default Props is use to specify default props value.
 
 # Props Types - 03
-
 Source : https://www.npmjs.com/package/prop-types
-
+install : npm install prop-types
 Props Types can be use for validate and check props.
+
+# React Child
+React Child can be used to mimize the extra componenet
 
 
 
