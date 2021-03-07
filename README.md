@@ -19,6 +19,9 @@ Higher Order Component is way to Pass Data or Gives some extra value or function
 
 Which is means A function that takes a component as its first argument and returns a new component that wraps the given component, providing extra capabilities to it.
 
+# Higher Order Component -05.1 Practice
+Menu and Favourite Toggle Example
+
 
 
 
