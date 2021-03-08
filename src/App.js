@@ -6,8 +6,10 @@ import Biodata from './03_Props_Types/Biodata';
 import CallOut from './04_React_Children/CallOut';
 import {withPointlessHOC} from "./05_Higher_Order/withPointLessHOC"
 import {withExtraPropAdded} from "./05_Higher_Order/withExtraPropAdded"
-import Favourite from './05_Higher_Order_practice_1/component/Favourite'
-import Menu from './05_Higher_Order_practice_1/component/Menu';
+import Favourite from './06_render_props/Favourite'
+import Menu from './06_render_props/Menu'
+// import Favourite from './06_render_props/05_Higher_Order_practice_1/component/Favourite';
+// import Menu from './06_render_props/05_Higher_Order_practice_1/component/Menu';
 
 function App(props) {
   return (
@@ -28,6 +30,10 @@ function App(props) {
           console.log(props)
 
         05.1. HOC - Practice Example 01
+         <Favourite/>
+         <Menu/>
+
+        06. Render Props
          <Favourite/>
          <Menu/>
            */ }

@@ -23,6 +23,8 @@ Which is means A function that takes a component as its first argument and retur
 Menu and Favourite Toggle Example
 
 
+# Render Props - 06
+
 
 
 

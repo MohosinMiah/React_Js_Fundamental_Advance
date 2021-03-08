@@ -20,21 +20,16 @@ class Toggle extends Component {
   
   render(){
 
-    const Component = this.props.component
-
       return(
-            <Component on={this.state.show} toggle={this.toggle} {...this.props} />
-        )      
+          <div>
+              
+          {this.props.render(this.state.show,this.toggle)}
+
+          </div>
+         )      
   }
 }
 
 
 
-
-export default function withToggler(component) {
-
-
-    return function(props) {
-        return <Toggle  component={component} {...props} />
-    }
-}
+export default Toggle
