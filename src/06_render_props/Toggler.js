@@ -4,7 +4,11 @@ import { render } from '@testing-library/react';
 
 class Toggle extends Component {
     state = {
-        show : true
+        show : this.props.show
+    }
+
+    static defaultProps = {
+        show :  false
     }
 
    toggle= ()=> {
@@ -30,6 +34,8 @@ class Toggle extends Component {
   }
 }
 
-
+// Toggler.defaultProps = {
+//     defaultOnValue: false
+// }
 
 export default Toggle
