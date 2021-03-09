@@ -10,6 +10,7 @@ import Favourite from './06_render_props/Favourite'
 import Menu from './06_render_props/Menu'
 // import Favourite from './06_render_props/05_Higher_Order_practice_1/component/Favourite';
 // import Menu from './06_render_props/05_Higher_Order_practice_1/component/Menu';
+import DataFetcher from './06_render_props/DataFetcher';
 
 function App(props) {
   return (
@@ -36,10 +37,33 @@ function App(props) {
         06. Render Props
          <Favourite/>
          <Menu/>
+
+         06.1 Render Props Example
+ .....................................
+         <div>
+            <DataFetcher url="https://swapi.dev/api/people/2/">
+                {(data, loading) => {
+                    return (
+                        
+                        loading ? 
+                        <h1>Loading...</h1> :
+                        <p>{JSON.stringify(data)}</p>
+                    )
+                }}
+            </DataFetcher>
+        </div>
+.................................................................
            */ }
            
-         <Favourite/>
-         <Menu/>
+           <DataFetcher url="https://swapi.dev/api/people/2/">
+                {({data, loading}) => (
+                    loading ? 
+                    <h1>Loading...</h1> :
+                    <p>{JSON.stringify(data)}</p>
+                )}
+            </DataFetcher>
+
+
     </div>
 
   );
