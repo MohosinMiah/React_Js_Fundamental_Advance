@@ -8,12 +8,12 @@ import reportWebVitals from './reportWebVitals';
 import ThemeContext from "./07_context_provider/ThemeContext"
 
 ReactDOM.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>,
-  <ThemeContext.Provider value={"light"} >
-        <App />
-  </ThemeContext.Provider>, 
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  // <ThemeContext.Provider value={"light"} >
+  //       <App />
+  // </ThemeContext.Provider>, 
 
   document.getElementById('root')
 );

@@ -13,6 +13,7 @@ import Menu from './06_render_props/Menu'
 import DataFetcher from './06_render_props/DataFetcher';
 import Header from './07_context_provider/Header';
 import Button from './07_context_provider/Button';
+import HooksExOne from './08_hooks/HooksExOne';
 
 function App(props) {
   return (
@@ -60,10 +61,10 @@ function App(props) {
         <Header />
         <Button />
 
+      08.1 useState() example One  
            */ }
            
-        <Header />
-        <Button />
+     <HooksExOne />
 
     </div>
 
