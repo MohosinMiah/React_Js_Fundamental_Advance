@@ -25,6 +25,11 @@ Menu and Favourite Toggle Example
 
 # Render Props - 06
 
+# Context Provider 07
+Context Provider is an way to pass data from Higer order component to  a specific component. It works like a Provider and Consumer.
+
+
+
 
 
 

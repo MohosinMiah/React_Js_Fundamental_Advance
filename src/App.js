@@ -11,6 +11,8 @@ import Menu from './06_render_props/Menu'
 // import Favourite from './06_render_props/05_Higher_Order_practice_1/component/Favourite';
 // import Menu from './06_render_props/05_Higher_Order_practice_1/component/Menu';
 import DataFetcher from './06_render_props/DataFetcher';
+import Header from './07_context_provider/Header';
+import Button from './07_context_provider/Button';
 
 function App(props) {
   return (
@@ -53,16 +55,15 @@ function App(props) {
             </DataFetcher>
         </div>
 .................................................................
+         
+      07. Context Provider 
+        <Header />
+        <Button />
+
            */ }
            
-           <DataFetcher url="https://swapi.dev/api/people/2/">
-                {({data, loading}) => (
-                    loading ? 
-                    <h1>Loading...</h1> :
-                    <p>{JSON.stringify(data)}</p>
-                )}
-            </DataFetcher>
-
+        <Header />
+        <Button />
 
     </div>
 
