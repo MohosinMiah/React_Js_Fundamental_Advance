@@ -15,6 +15,8 @@ import Header from './07_context_provider/Header';
 import Button from './07_context_provider/Button';
 import HooksExOne from './08_hooks/HooksExOne';
 
+import ChildHook from './08_hooks/ChildHook'
+
 function App(props) {
   return (
     <div className="App">
@@ -65,6 +67,8 @@ function App(props) {
            */ }
            
      <HooksExOne />
+     
+     <ChildHook />
 
     </div>
 
