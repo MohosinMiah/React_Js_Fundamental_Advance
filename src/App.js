@@ -14,6 +14,7 @@ import DataFetcher from './06_render_props/DataFetcher';
 import Header from './07_context_provider/Header';
 import Button from './07_context_provider/Button';
 import HooksExOne from './08_hooks/HooksExOne';
+import HandleInput from "./08_hooks/HandleInput"
 
 import ChildHook from './08_hooks/ChildHook'
 
@@ -64,11 +65,15 @@ function App(props) {
         <Button />
 
       08.1 useState() example One  
+
+      08.1.1 useState() example   
            */ }
            
      <HooksExOne />
      
      <ChildHook />
+    
+    <HandleInput />
 
     </div>
 
