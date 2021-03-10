@@ -1,4 +1,4 @@
-import { React,useState } from 'react';
+import React, {useState, useEffect} from "react"
 
 
 function ChildHook(props) {
@@ -7,16 +7,25 @@ function ChildHook(props) {
 
     const [count,setCount] =  useState(0)
 
+    const [color, setColor] = useState("")
 
   function decrement(){
       setCount( (prevCount) => {
 
           return prevCount - 1
-          
+
       }
 
       )
   }
+
+// useEffect()  second parameter fine based on which value It will effect
+
+  useEffect(() => {
+
+    setColor("#" + ((1<<24)*Math.random() | 0).toString(16) )
+
+    }, [count])
 
 
     return (
@@ -25,7 +34,7 @@ function ChildHook(props) {
             
             <hr />
             <br />
-            <h1>Current Number = {count}</h1>
+            <h1 style={{ color:color }}>Current Number = {count}</h1>
             <button onClick={() => setCount(prevCount =>  prevCount + 1) }>Increment</button>
             <button onClick={decrement}>Decrement</button>
 
