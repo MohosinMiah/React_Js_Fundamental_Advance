@@ -17,6 +17,7 @@ import HooksExOne from './08_hooks/HooksExOne';
 import HandleInput from "./08_hooks/HandleInput"
 
 import ChildHook from './08_hooks/ChildHook'
+import Home from './typing_monstar_game/Home';
 
 function App(props) {
   return (
@@ -76,14 +77,13 @@ function App(props) {
     
       <HandleInput />
 
+      09. Typing Mon Star Game
+
+
 
            */ }
            
-     <HooksExOne />
-     
-     <ChildHook />
-    
-    <HandleInput />
+    <Home />
 
     </div>
 

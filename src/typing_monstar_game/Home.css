@@ -1,0 +1,19 @@
+.heading-h1 {
+    color: green;
+}
+
+.main-area {
+    padding: 40px;
+    border:2px solid #444;
+    margin:40px;
+}
+
+.button-start {
+    background-color: green;
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    cursor: -webkit-grab; 
+    cursor: grab;
+
+}
