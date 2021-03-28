@@ -7,7 +7,7 @@ function useCounter() {
         setCount(prevCount => prevCount + 1)
     }
     
-    return {count, increment}
+    return [count, increment]
 }
 
 export default useCounter
