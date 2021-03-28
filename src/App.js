@@ -19,6 +19,7 @@ import HandleInput from "./08_hooks/HandleInput"
 import ChildHook from './08_hooks/ChildHook'
 import Home from './typing_monstar_game/Home';
 import UseRefExample from './09_useRef/useRefExample';
+import Counter from './10_Custom_Hocks/basic/Counter';
 
 function App(props) {
   return (
@@ -84,12 +85,13 @@ function App(props) {
       09. Use Ref Example == To Do List
           <UseRefExample />
 
+      10. Custom Hooks - useState() Example One = Increment Functionality using Custom Hooks - 10.0
+        <Counter />
 
            */ }
 
-
-           <UseRefExample />
-
+       <Counter />
+      
     </div>
 
   );
