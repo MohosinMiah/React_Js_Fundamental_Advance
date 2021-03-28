@@ -71,7 +71,7 @@ function Home() {
 
     setwordCount("")
     setnonEdit((!nonEdit))
-    setCounter(5)
+    setCounter(60)
 
   }
 
@@ -93,7 +93,7 @@ function Home() {
         
         />
 
-        {nonEdit == true  ? <p className="typedResult">Your Typied {wordLength } Words in a Minute (60 s).Start Game by clicking <strong className="heading-h1">Start Button</strong></p> : ""}
+        {wordLength > 0  ? <p className="typedResult">Your Typied {wordLength } Words in a Minute (60 s).Start Game by clicking <strong className="heading-h1">Start Button</strong></p> : ""}
 
       </div>
 
