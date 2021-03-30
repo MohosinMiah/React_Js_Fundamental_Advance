@@ -97,8 +97,9 @@ function App(props) {
    
 
            */ }
-      <Home />
-      
+           
+    <h1>Hello </h1>
+
     </div>
 
   );
