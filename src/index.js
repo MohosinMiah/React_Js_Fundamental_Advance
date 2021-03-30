@@ -6,9 +6,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import ThemeContext from "./07_context_provider/ThemeContext"
+
+import {BrowserRouter as Router} from "react-router-dom"
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <Router > <App /> </Router>
   </React.StrictMode>,
   // <ThemeContext.Provider value={"light"} >
   //       <App />

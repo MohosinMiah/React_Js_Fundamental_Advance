@@ -20,6 +20,7 @@ import ChildHook from './08_hooks/ChildHook'
 import Home from './typing_monstar_game/Home';
 import UseRefExample from './09_useRef/useRefExample';
 import Counter from './10_Custom_Hocks/basic/Counter';
+import RouterBasic from './11_Router_Intro/RouterBasic';
 
 function App(props) {
   return (
@@ -94,12 +95,16 @@ function App(props) {
 
       12. Use Custom Hooks in Typing Speed Game
       <Home />
-   
+   =========================================================================================
+   ************   React Route **************************************************************
+   13.  BrowserRouter 
+   13.1  Link Example
+
 
            */ }
-           
-    <h1>Hello </h1>
 
+    <h1>Hello </h1>
+   <RouterBasic />
     </div>
 
   );
