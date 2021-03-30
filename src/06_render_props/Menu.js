@@ -5,7 +5,7 @@ import Toggle from './Toggler';
 import useToggler from "./useToggler"
 function Menu() {
  
-    const [on,toggle] = useToggler()
+    const [on,toggle] = useToggler(true)
         return (
             // <Toggle render = { function(on,toggle) {
                     // return (

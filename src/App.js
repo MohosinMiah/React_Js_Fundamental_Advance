@@ -94,8 +94,8 @@ function App(props) {
 
            */ }
 
-      <Favourite/>
-         <Menu/>
+<Favourite/>
+         <Menu/>  
       
     </div>
 

@@ -1,8 +1,8 @@
 
 import {useState} from "react"
 
-function useToggler() {
-    const [on,setOn] = useState(false)
+function useToggler(defaultOnValue = false) {
+    const [on,setOn] = useState(defaultOnValue)
 
    function toggler(){
        setOn(!on)
