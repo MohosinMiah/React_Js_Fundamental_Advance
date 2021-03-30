@@ -88,9 +88,14 @@ function App(props) {
       10. Custom Hooks - useState() Example One = Increment Functionality using Custom Hooks - 10.0
         <Counter />
 
+      11. Use Custom Hooks replacing of Render Props
+         <Favourite/>
+         <Menu/>  
+
            */ }
 
-       <Counter />
+      <Favourite/>
+         <Menu/>
       
     </div>
 

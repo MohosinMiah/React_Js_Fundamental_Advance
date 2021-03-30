@@ -1,12 +1,14 @@
 import { React,Component } from 'react';
 
 import Toggle from './Toggler';
+
+import useToggler from "./useToggler"
 function Menu() {
  
-    
+    const [on,toggle] = useToggler()
         return (
-            <Toggle render = { function(on,toggle) {
-                    return (
+            // <Toggle render = { function(on,toggle) {
+                    // return (
                             <div>
                                 <button onClick={toggle}>{on ? "Hide" : "Show"} Menu </button>
                                 <nav style={{display: on ? "block" : "none"}}>
@@ -18,10 +20,10 @@ function Menu() {
                                 </nav>
                             </div>
                    
-                   )}
+                //    )}
             
 
-            } />
+            // } />
         ) 
 }
 
