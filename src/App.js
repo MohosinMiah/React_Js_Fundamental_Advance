@@ -92,10 +92,12 @@ function App(props) {
          <Favourite/>
          <Menu/>  
 
-           */ }
+      12. Use Custom Hooks in Typing Speed Game
+      <Home />
+   
 
-<Favourite/>
-         <Menu/>  
+           */ }
+      <Home />
       
     </div>
 
