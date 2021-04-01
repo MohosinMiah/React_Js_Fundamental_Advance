@@ -22,6 +22,7 @@ import UseRefExample from './09_useRef/useRefExample';
 import Counter from './10_Custom_Hocks/basic/Counter';
 import RouterBasic from './11_Router_Intro/RouterBasic';
 import SwitchRoute from './12_Switch_Route/SwitchRoute';
+import RouteNested from './13_Nested_Route/RouteNested';
 
 function App(props) {
   return (
@@ -101,11 +102,14 @@ function App(props) {
    13.  BrowserRouter 
    13.1  Link Example
    14. Switch and Route
+   15.Nested Route Example
 
 
            */ }
 
-      <SwitchRoute />
+
+
+  <RouteNested />
     </div>
 
   );
