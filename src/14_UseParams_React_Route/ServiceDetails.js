@@ -2,11 +2,11 @@ import { React } from 'react';
 import {useParams} from "react-router-dom"
 import servicesData from "./servicesData"
 
-function ServiceDetails(){
+function ServiceDetails(props){
 
     const {serviceId} = useParams()
 
-    const service = servicesData.find((service) => service._id == serviceId)
+    const service = servicesData.find((service) => service._id === serviceId)
 
  return(
      <div>

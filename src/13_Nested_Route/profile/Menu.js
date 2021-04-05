@@ -1,17 +1,20 @@
 import { React } from 'react';
-import {Link,Route,Switch} from "react-router-dom"
+import {Link,Route,Switch,useRouteMatch} from "react-router-dom"
 import Setting from './Setting';
 import Profile from './Profile';
 
 function Menu(){
+
+    const {path,url} = useRouteMatch()
+    
     return(
         <div>
             <h1>Hello Profile Setting Nested Menu</h1>
             <nav>
-            <Link to="/profile/profile" >Profile Info</Link>
+            <Link to={`${url}/profile`}>Profile Info</Link>
             <br />
 
-            <Link to="/profile/setting" >Profile Settings</Link>
+            <Link to={`${url}/setting`} >Profile Settings</Link>
             </nav>
 
             {/* <Switch>
@@ -21,8 +24,8 @@ function Menu(){
 
             <Switch>
 
-            <Route path="/profile/profile"  ><Profile /></Route>
-            <Route path="/profile/setting"  > <Setting /></Route>
+            <Route path={`${url}/profile`}  ><Profile /></Route>
+            <Route path={`${url}/setting`}  > <Setting /></Route>
 
             </Switch>
 

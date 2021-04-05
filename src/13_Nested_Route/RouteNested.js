@@ -4,6 +4,7 @@ import { render } from '@testing-library/react';
 import MainHome from './MainHome';
 import Menu from './profile/Menu';
 
+
 function RouteNested() {
 
     return (
@@ -12,12 +13,12 @@ function RouteNested() {
             <nav>
             <Link to="/" > Home </Link>
             <br />
-            <Link to="/profile" > Profile </Link>
+            <Link to="/user" > Profile </Link>
             </nav>
 
             <Switch>
             <Route exact path="/">  <MainHome />  </Route>
-            <Route  path="/profile">  <Menu />  </Route>
+            <Route  path="/user">  <Menu />  </Route>
                 
             </Switch>
         </div>
